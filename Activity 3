@@ -1,0 +1,6 @@
+SEND 'Please enter the first namber ' To Display
+recieve first_number From keyboard
+Send 'please enter the second number'TO DISPLAY
+RECIEVE second_number FROM KEYBOARD
+SET toralto first_number * second number
+send total to display
