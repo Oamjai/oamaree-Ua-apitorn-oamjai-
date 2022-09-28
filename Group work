@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T03:55:25.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" version="20.3.7" etag="3rRlkj9r3v7Xdher-UFZ" type="github"><diagram id="rTmDbQjM064jOjv331hm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:29:58.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="Ct5u4g8JC4WPwaRZmg6Z" version="20.3.7" type="github">
+  <diagram id="rTmDbQjM064jOjv331hm" name="หน้า-1">
+    <mxGraphModel dx="826" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-1" target="R4ocLAuJIZgC9nHo_4IK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-4" target="R4ocLAuJIZgC9nHo_4IK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-4" target="R4ocLAuJIZgC9nHo_4IK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R4ocLAuJIZgC9nHo_4IK-11">
+          <mxGeometry x="-0.2786" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-4" value="If temperature&amp;nbsp;&lt;br&gt;&amp;gt; than 10" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-6" value="Switched of the boiler" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-10" target="R4ocLAuJIZgC9nHo_4IK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-10" value="Check if it is during the&lt;br&gt;Week or not" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-15" target="R4ocLAuJIZgC9nHo_4IK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-15" value="Check if &amp;nbsp;the time is&lt;br&gt;Between 06:00 and 8:30&lt;br&gt;And 17:30-22:00" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="420" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-17" target="R4ocLAuJIZgC9nHo_4IK-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="625" />
+              <mxPoint x="320" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4ocLAuJIZgC9nHo_4IK-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-17" value="Check iff temperature&amp;nbsp;&lt;br&gt;Is &amp;lt; 20" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-19" value="Switch on the boiler" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="602.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="R4ocLAuJIZgC9nHo_4IK-24" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
